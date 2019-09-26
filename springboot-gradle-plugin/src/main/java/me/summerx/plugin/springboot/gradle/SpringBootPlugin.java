@@ -14,6 +14,6 @@ import org.gradle.api.Project;
 public class SpringBootPlugin implements Plugin<Project> {
     @Override
     public void apply(Project project) {
-
+//        project.getConfigurations().getByName("").getDependencies()
     }
 }
